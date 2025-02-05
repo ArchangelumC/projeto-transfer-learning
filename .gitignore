@@ -170,15 +170,12 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
-# Ignorar tudo
-/*
+# Ignora todos os arquivos e pastas por padrão
+*
 
-# Rastrear apenas a pasta Projeto Transfer Learning
-!/Projeto\ Transfer\ Learning/
+# Exclui a pasta do projeto da regra de ignorar
+!/drive/MyDrive/Projeto\ Transfer\ Learning/
+!/drive/MyDrive/Projeto\ Transfer\ Learning/*
 
-# Ignorar arquivos desnecessários do Google Drive
-*.gform
-*.gsheet
-*.gdoc
-*.gslides
-.DS_Store
+# Certifique-se de que a pasta .gitignore não seja ignorada
+!.gitignore
