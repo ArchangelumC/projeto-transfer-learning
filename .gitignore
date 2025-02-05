@@ -169,8 +169,16 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ignorar tudo
+/*
+
+# Rastrear apenas a pasta Projeto Transfer Learning
+!/Projeto\ Transfer\ Learning/
+
+# Ignorar arquivos desnecessários do Google Drive
+*.gform
 *.gsheet
 *.gdoc
 *.gslides
-*.tmp
 .DS_Store
